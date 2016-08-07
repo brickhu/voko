@@ -1,3 +1,4 @@
 name: vokodesign
 markdown: kramdown
-destination: /voko
+destination: voko
+source: voko
