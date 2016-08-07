@@ -3,6 +3,6 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 
-name:       brickhu
+name:       胡
 baseurl:     /
 url:         http://localhost:4000
