@@ -1,4 +1,3 @@
-name: vokodesign
-markdown: kramdown
-baseurl:  /voko
-
+name:       brickhu
+baseurl:     /
+url:         http://localhost:4000
