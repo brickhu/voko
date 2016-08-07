@@ -4,5 +4,5 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 
 name:       胡
-baseurl:     /
+baseurl:    voko
 url:         http://localhost:4000
