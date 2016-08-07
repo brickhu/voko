@@ -1,4 +1,4 @@
 name: vokodesign
 markdown: kramdown
-destination: https://brickhu.github.io/voko
-source: voko/
+baseurl:  /voko
+
