@@ -1,7 +1,19 @@
-source:      .
+source:  .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+plugins: ./_plugins
+layouts: ./_layouts
 
-name:       胡
-baseurl:    voko
+name: 胡
+baseurl: voko
+
+markdown: kramdown
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext: textile
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
