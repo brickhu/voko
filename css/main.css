@@ -1,0 +1,7 @@
+.fsvs header{
+	position: absolute;
+	z-index: 3;
+	height: 100%;
+	width: 300px;
+	background: red;
+}
