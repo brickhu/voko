@@ -9,11 +9,23 @@
         		<script src="./js/jQuery/jquery-migrate-1.2.1.min.js"></script>
         		<script src="./js/FSVS/bundle.js"></script>
         		<script src="./js/FSVS/fsvs.js"></script>
-        		<script type="text/javascript">
-        			$(document).ready( function() {
-					    // The HTML tag must have a class of fsvs
+        		<script>
+					$(document).ready( function() {
 					    var fsvs = $.fn.fsvs({
-					        speed : 1000
+					        speed : 5000,
+					        bodyID : 'fsvs-body',
+					        selector : '> .slide',
+					        mouseSwipeDisance : 40,
+					        afterSlide : function(){},
+					        beforeSlide : function(){},
+					        endSlide : function(){},
+					        mouseWheelEvents : true,
+					        mouseDragEvents : true,
+					        touchEvents : true,
+					        arrowKeyEvents : true,
+					        pagination : true,
+					        nthClasses : false,
+					        detectHash : true
 					    });
 					});
         		</script>
