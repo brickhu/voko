@@ -3,7 +3,13 @@ layout: default
 title: brickhu
 ---
 <div class="slide green">
-  <p>Slide 1</p>
+  	{% for link in site.links %}
+            <li>{% if link.external %}
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                {% else %}
+                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                {% endif %} </li>
+	{% endfor %}  
 </div>
 <div class="slide yellow">
   <p>Slide 2</p>
