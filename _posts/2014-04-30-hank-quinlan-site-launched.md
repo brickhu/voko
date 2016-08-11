@@ -4,17 +4,15 @@ title: "Hank Quinlan, Horrible Cop, Launches Site"
 date: 2014-04-30
 ---
 
+<div style="float: right">
+Something that stays right and is not wrapped in a para.
+</div>
 
-{:refdef: .slide}
+{::options parse_block_html="true" /}
 
-## page 1
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-{: refdef}
-
-{:refdef: .slide}
-
-## page 2
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-{: refdef}
+<div>
+This is wrapped in a para.
+</div>
+<p>
+This can contain only *span* level elements.
+</p>
