@@ -4,7 +4,7 @@ plugins: ./_plugins
 layouts: ./_layouts
 
 name: VokoDesign
-baseurl: ./
+baseurl: /voko
 
 markdown: kramdown
 markdown_ext: markdown,mkd,mkdn,md
