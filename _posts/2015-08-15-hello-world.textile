@@ -1,0 +1,6 @@
+---
+title: hello world
+layout: case
+---
+
+div(myclass#myid). This div has both a CSS class and an id.
