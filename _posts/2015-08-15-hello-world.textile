@@ -4,6 +4,9 @@ layout: case
 css: .myclass{font-size:4em; color:red;}
 ---
 
-div(myclass). This div has both a CSS.
+<div id="shopping-cart"><form action="form_action" method="get">
+h3. Your cart
 
-div(myclass). class and an id.
+* Item one
+* Item two
+<input type="submit" value="Check Out" /></form></div>
