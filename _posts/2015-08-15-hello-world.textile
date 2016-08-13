@@ -5,4 +5,4 @@ css: .myclass{font-size:4em; color:red;}
 ---
 
 div(myclass). This div has both a CSS 
-div(haha). class and an id.
+div(myclass). class and an id.
