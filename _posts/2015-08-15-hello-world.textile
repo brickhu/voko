@@ -4,5 +4,5 @@ layout: case
 css: .myclass{font-size:4em; color:red;}
 ---
 
-div(myclass). This div has both a CSS 
+div(myclass). This div has both a CSS.
 div(myclass). class and an id.
