@@ -3,7 +3,7 @@ destination: ./_site
 plugins: ./_plugins
 layouts: ./_layouts
 
-name: VokoDesign
+name: Voko
 baseurl: /voko
 
 markdown: kramdown
