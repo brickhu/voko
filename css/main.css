@@ -1,20 +1,35 @@
-.fsvs header{
-	position: absolute;
-	z-index: 3;
-	height: 100%;
-	width: 200px;
-}
+
 .fsvs body{
 	width: 100%;
 	height: 100%;
 }
 
-.green{
-	background: green;
+.fsvs header{
+	position: absolute;
+	z-index: 3;
+	height: 100%;
+	width:100%;
 }
-.blue{
-	background: blue;
+.global-header .site-title{
+	position: absolute;
+	left:20px;
+	top:20px;
+	
 }
-.yellow{
-	background: yellow;
+.global-header .btn-nav{
+	position: absolute;
+	right:20px;
+	top:20px;
+}
+.icon-nav{
+	display:block;
+	width:32px;
+	height:28px;
+	
+}
+.icon-nav i{
+	display:block;
+	background-color:#fff;
+	width:100%;
+	height:10%;
 }
