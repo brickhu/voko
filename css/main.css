@@ -21,10 +21,11 @@
 	right:20px;
 	top:20px;
 }
-.icon-nav{
+.btn-nav .icon-nav{
 	display:block;
 	width:32px;
 	height:28px;
+	background-color:red;
 	
 }
 .icon-nav i{
